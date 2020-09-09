@@ -50,15 +50,15 @@ notes = {"C0" : 0, "C#0" : 1, "D0" : 2,
 
  
 for fileName in os.listdir('.'):
-     if os.path.isfile(fileName) and ".wav" in fileName:
+     if os.path.isfile(fileName) and ".WAV" in fileName:
         files.append(fileName.upper())
         
 for i in files:
 	for note in notes.keys():
 		if note in i:
-			print notes[note], i
+			print (notes[note], i)
 			newFileName = str(notes[note])+'.wav'
-			print newFileName
+			print (newFileName)
 			os.rename(i, newFileName)
 			
         
