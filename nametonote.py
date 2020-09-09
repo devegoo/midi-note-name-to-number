@@ -50,8 +50,8 @@ notes = {"C0" : 0, "C#0" : 1, "D0" : 2,
 
  
 for fileName in os.listdir('.'):
-     if os.path.isfile(fileName) and ".WAV" in fileName:
-        files.append(fileName.upper())
+     if os.path.isfile(fileName) and ".wav" in fileName:
+        files.append(fileName)
         
 for i in files:
 	for note in notes.keys():
