@@ -4,6 +4,7 @@ A simple script to loop through .wav files in a directory named with scientific 
 Installation
 
 git clone https://github.com/devegoo/midi-note-name-to-number.git
+
 cd midi-note-name-to-number/
 
 sudo su
