@@ -1,3 +1,3 @@
 #!/bin/bash
 cd '$pwd'
-python3 /opt/SamplerBox/tools/nametonote.py
+python3 /opt/nametonote/nametonote.py
