@@ -10,6 +10,7 @@ cd midi-note-name-to-number/
 sudo su
 
 chmod +x install.sh
+
 ./install.sh 
 
 command to rename samples :
@@ -22,6 +23,7 @@ nametonote
 accepted file names for example :
 
 C0.wav
+
 C#0.wav
 
 ....
